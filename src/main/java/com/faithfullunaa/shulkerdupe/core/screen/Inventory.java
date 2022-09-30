@@ -22,8 +22,6 @@ public class Inventory
 
 	public static void move_item(int slot)
 	{
-		Chat.log("Moving item from Slot " + slot);
-
 		if (CLIENT.screen instanceof ShulkerBoxScreen)
 		{
 			ShulkerBoxScreen screen = (ShulkerBoxScreen) CLIENT.screen;
